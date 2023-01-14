@@ -1,0 +1,95 @@
+/* Add some styling to the webpage */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* center the elements horizontally within the form */
+  justify-content: center; /* center the elements vertically within the form */
+  margin: 20px 0;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+input[type="text"], select {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1fabeb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+}
+copycode {
+  padding: 10px 10px;
+  background-color: #1fabeb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 10%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#signature {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: left;
+  border-radius: 10px;
+}
+
+
+/* Add a container for the content */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* make the container take up the full height of the viewport */
+}
+
+.user-input {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px; /* add rounded corners to the content */
+  width: 20%;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  position: relative;
+}
+
+.generated-signature {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px; /* add rounded corners to the content */
+  width: 50%;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  position: relative;
+  margin-left: 30px;
+}
+

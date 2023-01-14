@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> SL email signature generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<div class="container">
+  <div class="user-input">
+
+    <body>
+      <h1>Email signature generator</h1>
+      <form>
+        <label>Name:</label>
+        <input type="text" id="name"><br>
+        <label>Position:</label>
+        <input type="text" id="position"><br>
+        <label>Phone:</label>
+        <input type="text" id="phone"><br>
+        <label>Email:</label>
+        <input type="text" id="email"><br>
+        <label>Company:</label>
+        <select id="company">
+          <option value="satoshilabs">SatoshiLabs</option>
+          <option value="trezor">Trezor</option>
+          <option value="invity">Invity.io</option>
+          <option value="tropicsquare">Tropic Square</option>
+          <option value="vexl">Vexl</option>
+        </select>
+        <button type="button" onclick="generateSignature()">Generate Signature</button>
+      </form>
+  </div>
+
+  <div class="generated-signature">
+    <h2>Generated siganture</h2>
+    <div id="signature"></div>
+    <script src="script.js"></script>
+    <copycode type="button" onclick="copySignature()">Copy Code</copycode>
+  </div>
+  </body>
+
+</html>
