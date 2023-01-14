@@ -13,7 +13,7 @@ function generateSignature() {
   switch (company) {
     case "satoshilabs":
         signature += `
-        <div style="width: 600px; height: 130px; background-color: white; border-radius: 10px; box-shadow: 0px 0px 10px #d9d9d9; padding-top: 10px; padding-bottom: 15px;">
+        <div style="width: 600px; height: 140px; background-color: white; border-radius: 10px; box-shadow: 0px 0px 10px #d9d9d9; padding-top: 10px; padding-bottom: 15px;">
         <div style="display: flex; flex-direction: column; padding: 15px;">
           <div style="display: flex; flex-direction: row; align-items: flex-start; margin-left: 10px; margin-bottom: 5px">
             <h1 style="margin: 0; font-size: 1em; font-weight: bold;">${name}</h1>
@@ -41,7 +41,7 @@ function generateSignature() {
         break;
         case "trezor":
           signature += `
-          <div style="width: 600px; height: 130px; background-color: white; border-radius: 10px; box-shadow: 0px 0px 10px #d9d9d9; padding-top: 10px; padding-bottom: 15px;">
+          <div style="width: 600px; height: 140px; background-color: white; border-radius: 10px; box-shadow: 0px 0px 10px #d9d9d9; padding-top: 10px; padding-bottom: 15px;">
           <div style="display: flex; flex-direction: column; padding: 15px;">
             <div style="display: flex; flex-direction: row; align-items: flex-start; margin-left: 10px; margin-bottom: 5px">
               <h1 style="margin: 0; font-size: 1em; font-weight: bold;">${name}</h1>
@@ -70,7 +70,7 @@ function generateSignature() {
           break;
           case "invity":
             signature += `
-            <div style="width: 600px; height: 130px; background-color: white; border-radius: 10px; box-shadow: 0px 0px 10px #d9d9d9; padding-top: 10px; padding-bottom: 15px;">
+            <div style="width: 600px; height: 140px; background-color: white; border-radius: 10px; box-shadow: 0px 0px 10px #d9d9d9; padding-top: 10px; padding-bottom: 15px;">
             <div style="display: flex; flex-direction: column; padding: 15px;">
               <div style="display: flex; flex-direction: row; align-items: flex-start; margin-left: 10px; margin-bottom: 5px">
                 <h1 style="margin: 0; font-size: 1em; font-weight: bold;">${name}</h1>
@@ -99,7 +99,7 @@ function generateSignature() {
             break;
             case "tropicsquare":
               signature += `
-              <div style="width: 600px; height: 130px; background-color: white; border-radius: 10px; box-shadow: 0px 0px 10px #d9d9d9; padding-top: 10px; padding-bottom: 15px;">
+              <div style="width: 600px; height: 140px; background-color: white; border-radius: 10px; box-shadow: 0px 0px 10px #d9d9d9; padding-top: 10px; padding-bottom: 15px;">
               <div style="display: flex; flex-direction: column; padding: 15px;">
                 <div style="display: flex; flex-direction: row; align-items: flex-start; margin-left: 10px; margin-bottom: 5px">
                   <h1 style="margin: 0; font-size: 1em; font-weight: bold;">${name}</h1>
@@ -128,7 +128,7 @@ function generateSignature() {
               break;
               case "vexl":
                 signature += `
-                <div style="width: 600px; height: 130px; background-color: white; border-radius: 10px; box-shadow: 0px 0px 10px #d9d9d9; padding-top: 10px; padding-bottom: 15px;">
+                <div style="width: 600px; height: 140px; background-color: white; border-radius: 10px; box-shadow: 0px 0px 10px #d9d9d9; padding-top: 10px; padding-bottom: 15px;">
                 <div style="display: flex; flex-direction: column; padding: 15px;">
                   <div style="display: flex; flex-direction: row; align-items: flex-start; margin-left: 10px; margin-bottom: 5px">
                     <h1 style="margin: 0; font-size: 1em; font-weight: bold;">${name}</h1>
